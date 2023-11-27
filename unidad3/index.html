@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="contenedor">
+
+
+            <h1 class="titulo">DAWEB</h1>
+
+
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <h2>Formulario de Contacto</h2>
+
+            <form action="procesar_formulario.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            <main>
+                <section>
+                    <h2>Bienvenido a la página oficial de DAWEB</h2>
+                    <p>Gracias por visitar nuestro sitio en línea. Aquí encontrarás información interesante sobre una
+                        variedad de temas sobre Despliegue de Aplicaciones Web.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Acerca de Nosotros</h2>
+                    <p>Somos un equipo de 6 apasionados que se encuentran en constante crecimiento por proporcionar
+                        contenido valioso y relevante para
+                        nuestros usuarios.</p>
+                </section>
+
+                <section>
+                    <h2>Nuestros Servicios</h2>
+                    <p>Ofrecemos una amplia gama de servicios para satisfacer las necesidades del cliente:</p>
+                    <ul>
+                        <li>Consultoría en línea</li>
+                        <li>Desarrollo web y diseño</li>
+                        <li>Asesoramiento en marketing digital</li>
+                        <li>Creación de contenido personalizado</li>
+                    </ul>
+                    <p>Ya sea que necesites ayuda con tu presencia en línea o estés buscando contenido especializado,
+                        estamos aquí para ayudarte a alcanzar tus objetivos.</p>
+                </section>
+
+                <section>
+                    <h2>Contacto</h2>
+                    <p>¿Tienes alguna pregunta o comentario?</p>
+                    <P>!Nos encantaría saber de ti! Puedes contactarnos a través del
+                        siguiente formulario o enviándonos un correo electrónico a <a
+                            href="mailto:daweb@gmail.com">daweb@gmail.com</a>.</p>
+                </section>
+
+                <section>
+                    <h2>Información Adicional</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Puesto en la empresa</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Juan Pérez</td>
+                                <td>CEO</td>
+                                <td><a href="mailto:juan@gmail.com">juan@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Maria Rodríguez</td>
+                                <td>Diseñadora Senior</td>
+                                <td><a href="mailto:maria@gmail.com">maria@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Gómez</td>
+                                <td>Desarrollador Web</td>
+                                <td><a href="mailto:carlos@gmail.com">carlos@gmail.com</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; 2023/24 2ºDAW</p>
+            </footer>
+
+
+        </div>
+
+</body>
+
+</html>

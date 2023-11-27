@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.titulo {
+    background-color: #e45454;
+    font-size: 2em;
+    text-align: left;
+    margin: 0;
+}
+
+main {
+    background-image: url("Engranajes-Nube-Azul.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #eee;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+main {
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
